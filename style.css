@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  height: 100%;
+  background-color: #FFE6E6;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: "Indie Flower", cursive;
+  margin: 0;
+  flex-direction: column;
+  overflow-y: auto;
+} 
+
+.head {
+  width: 50%;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  gap: 0;
+  position: fixed;
+  z-index: 999;
+}
+
+.name {
+  margin: 0;
+}
+
+.name > h1 {
+  font-size: 3em;
+}
+
+.function > input::placeholder, .function > button{
+  font-family: "Indie Flower", cursive;
+}
+
+.function {
+  width: 65%;
+  height: 16%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+}
+
+#input {
+  width: 70%;
+  border-style: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 2%;
+}
+#input:focus {
+  border-style: none;
+  border: 5px solid #8B93FF;
+}
+
+#add {
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid gray;
+  background-color: #FF8E9E;
+  color: white;
+  width: 5vw;
+}
+#add:active {
+  border: 3px solid #8B93FF;
+}
+
+.space {
+  background-color: #FFE6E6;
+  width: 100%;
+  height: 20vh;
+}
+
+.newList {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #FFE6E6;
+}
+
+.newList li {
+  width: 30vw;
+  height: 15vh;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+  margin-right: 35px;
+  display: flex;
+  justify-content: start;
+  font-family: "Preahvihear", sans-serif;
+}
+
+.task_text {
+  margin-left: 10%;
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.buttons {
+  margin-right: 1%;
+  margin-left: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.del_button {
+  width: 6em;
+  height: 3em;
+  background-color: #FF8E9E;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.edit_button {
+  width: 6em;
+  height: 3em;
+  background-color: #FF8E9E;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.date {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 3%;
+  padding-left: 2%;
+}
+
+
+
+
+
+
+
